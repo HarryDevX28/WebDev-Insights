@@ -1,0 +1,211 @@
+ body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .ul1 {
+            display: flex;
+            list-style-type: none;
+            gap: 45px;
+            justify-content: center;
+            background-color: rgb(14, 2, 32);
+            flex-wrap: wrap;
+            margin: 0px 0px;
+            padding: 13px 0px;
+        }
+        
+        nav a{
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #913aca;
+        }
+
+        h1 {
+            font-family: roboto;
+        }
+
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin: 0px 15px auto;
+            gap: 20px;
+        }
+
+        .content {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        p {
+            font-family: roboto;
+            margin: 0px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 450px;
+            height: auto;
+        }
+
+        .intro {
+            max-width: 1200px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 10px;
+            font-weight: 450;
+        }
+
+        .lists {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            align-items: flex-start;
+            margin-top: 10px;
+            margin-left: 15px;
+            font-family: roboto;
+            font-weight: 450;
+        }
+
+        .ol-list {
+            flex: 2;
+        }
+
+        .ul-list {
+            flex: 1;
+        }
+
+        .bold {
+            font-weight: 700;
+        }
+
+        .blockquote {
+            font-family: roboto;
+            margin-left: 15px;
+
+        }
+
+        blockquote {
+            font-weight: 500;
+            max-width: 1200px;
+        }
+
+        .quotep1 {
+            font-weight: 450;
+            color: rgb(58, 58, 58);
+        }
+        .quotep2{
+            text-align: end;
+            max-width: 900px;
+            margin: 0px 50px;
+
+        }
+
+        .inlinequote {
+            margin-top: 10px;
+            margin-left: 15px;
+            max-width: 1200px;
+        }
+
+        q {
+            font-weight: 500;
+        }
+
+        .eg-code {
+            background-color: rgb(73, 73, 73);
+            border: 1px solid rgb(56, 56, 56);
+            margin-top: 10px;
+            margin-left: 15px;
+            margin-right: 15px;
+            max-width: 400px;
+            border-radius: 15px;
+            overflow: auto;
+        }
+
+        .precode {
+            color: white;
+            max-width: 370px;
+        }
+
+        .aside-list {
+            margin-left: 15px;
+            margin-top: 12px;
+        }
+
+        .aside-ul {
+            font-family: roboto;
+        }
+
+        .aside-p {
+            font-weight: 500;
+        }
+
+        .overflow {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        .flow-heading {
+            font-weight: 500;
+        }
+
+        .flow-eg {
+            box-shadow: 0px 0px 20px 1px;
+            background-color: rgb(236, 248, 248);
+            margin-top: 15px;
+            margin-bottom: 5px;
+            padding: 5px;
+            max-width: 1000px;
+            max-height: 120px;
+            border-radius: 15px;
+            overflow: auto;
+        }
+
+        .conclusion {
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 19px;
+        }
+
+        .con-heading {
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .con-para {
+            max-width: 1000px;
+            font-weight: 440;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(231, 230, 233);
+            color: black;
+            margin-top: 5px;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .wdinsg {
+            text-align: center;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding-top: 8px;
+        }
+
+        .wdinfo {
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            max-width: 480px;
+            display: inline-block;
+        }
+        .contact-link{
+            text-align: center;
+        }
