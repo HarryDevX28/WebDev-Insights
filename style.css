@@ -6,10 +6,11 @@
         .ul1 {
             display: flex;
             list-style-type: none;
-            gap: 45px;
+            gap: 5vw;
             justify-content: center;
             background-color: rgb(14, 2, 32);
             flex-wrap: wrap;
+            align-content: center;
             margin: 0px 0px;
             padding: 13px 0px;
         }
